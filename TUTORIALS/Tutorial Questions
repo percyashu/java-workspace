@@ -1,0 +1,58 @@
+TUTORIALSSHEET
+(CONDITIONAL STATEMENTS, LOOPS,
+METHODS, AND ARRAYS)
+
+1. Write a Java class called Factorial. This class defines a method called factorial() which takes as
+its only parameter an int called n, and returns an int representing the factorial of n. The factorial of
+an integer n, denoted n!, is defined as n · (n − 1) · (n − 2) · . . . · 1 (but note that 0! is 1). You MAY
+assume that n is a non-negative integer.
+
+2. Write a Java class called Fibonacci. This class defines a method called fibonacci() which takes as
+its only parameter an int called n, and returns an int representing the n th Fibonacci number. The
+n th Fibonacci number, denoted f n , is defined as follows:
+f 0 = 0
+f 1 = 1
+f n = f n−1 + f n−2
+You MAY assume that n is a non-negative integer.
+
+3. Write a Java class called PrimalityChecker. This class defines a method called isPrime(), which
+takes as its only parameter an int called n, and returns a boolean which is true if and only if n is a
+prime number, false otherwise. A prime number is an integer which cannot be divided evenly by any
+integer except 1 and itself. You MAY assume that n is a non-negative integer.
+
+4. Write a Java class called GoldbackChecker. This class defines a method called checkGoldbach(),
+which takes as its only parameter an int called n, and returns an array of int. This method finds two
+prime numbers whose sum is equal to n, and returns these two prime numbers in an array of ints of
+length 2; if two such primes cannot be found, n is less than 4, or n is odd, your method should return
+null. Your checkGoldbach() method MAY call the isPrime() method you wrote for a previous
+exercise. Note that every even int value greater than 4 can be expressed as the sum of two prime
+numbers.
+
+5. Write a Java class called Power. This class defines a method called power() which takes as parameters
+a double called base as well as an int called exponent, and returns a double representing the value
+of base raised to the power exponent. You MAY assume that exponent is a non-negative integer
+value, and that base and exponent are not both 0. You MUST write the computation yourself; in
+other words, you MUST NOT use the Math.pow() method.
+
+6. Write a Java class called CountDigits. This class defines a method called countDigits() which takes
+as its only paramter an int called n, and returns an int representing the number of digits in n. You
+MAY assume that n is a positive integer.
+
+7. Write a Java class called Contains. This class defines a method called contains(), which takes as
+parameters an array of int called a as well as an int called x, and returns a boolean which is true if
+and only if x occurs in a, false otherwise.
+
+8. Write a Java class called ContainsInRange. This class defines a method called contains(), which
+takes as parameters an array of int called a, an int called x, an int called start, as well as an int
+called end, and returns a boolean which is true if and only if x occurs in a at a position which is
+greater than or equal to start, and less than end. You MAY assume that start is less than or equal
+to end, and that both start and end are greater than or equal to 0, and less than or equal to a.length.
+
+9. Write a Java class called CheckDuplicates. This class defines a method called checkDuplicates(),
+which takes as its only parameter an array of int called a, and returns a boolean which is true if and
+only if there exists at least one value in a which occurs more than once. Your checkDuplicates()
+method MAY call the contains() method you wrote for a previous exercise.
+
+10. Write a Java class called Maximum. This class defines a method called maximum(), which takes as its
+only parameter an array of int called a, and returns an int representing the maximum value which
+occurs in the array.
